@@ -1,14 +1,7 @@
-header {
-    background-color: rgba(0, 32, 102, 0.793);
-    padding: 10px 30px;
-    align-items: center;
-    display: flex;
+.header {
+    background-color: rgb(0, 20, 120);
 }
-nav {
-    display: inline-flex;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(0, 138, 150);
+.a {
     text-transform: uppercase;
-    margin-right: 30px;
+    text-decoration: none;
 }
