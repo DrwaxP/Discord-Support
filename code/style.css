@@ -4,4 +4,11 @@
 .a {
     text-transform: uppercase;
     text-decoration: none;
+    padding: 10px;
+}
+
+.imagem-cabecalho {
+    width: 30px;
+    height: 30px;
+    padding: 20px;
 }
