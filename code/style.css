@@ -27,21 +27,26 @@ header {
     flex: 1 1 100vw;
 }
 
+header #logo {
+    flex: 0 1 200px;
+    background: blue;
+
+}
+
 nav  {
     flex: 1 1 100vw;
-    height: 100px;
     align-items: center;
-    justify-content: left;
+    justify-content: flex-end;
 
 }
 
 nav a {
-    margin: 5%;
+    margin: 3%;
     font-size: 20pt;
 }
 
 main {
-    height: calc(100vw - 330px);
+    height: calc(100vw - 224px);
     flex: 20 1 500px;
 }
 
@@ -63,7 +68,7 @@ a {
 
 @media only screen and (max-width: 923px) {
     main {
-        height: calc(100vw - 436px);
+        height: calc(100vw - 330px);
     }
     aside {
         flex: 1 1 100vw;
