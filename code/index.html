@@ -5,6 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Suporte Discord</title>
+    <script type="text/javascript">
+
+        openMenu.addEventListener('click', () => {
+            menu.style.display = 'flex'
+
+            menu.style.right = (menu.offsetWidth * -1) = 'px'
+
+            menu.style.display = 'none'
+
+            setTimeout(() =>{
+                menu.style.opacity = '1'
+
+                menu.style.right = '0'
+            }, 10)
+        })
+
+        closeMenu.addEventListener('click', () => {
+            menu.style.opacity = '0'
+
+            menu.style.right = (menu.offsetWidth * -1) + 'px'
+            
+            setTimeout(() => {
+                menu.removeAttribute('style')
+                openMenu.removeAttribute('style')
+            }, 200)
+        })
+    </script>
 </head>
 <body>
     <header>
@@ -46,33 +73,7 @@
         Rodapé
 
     </footer>
-    <script type="text/javascript">
-
-        openMenu.addEventListener('click', () => {
-            menu.style.display = 'flex'
-
-            menu.style.right = (menu.offsetWidth * -1) = 'px'
-
-            menu.style.display = 'none'
-
-            setTimeout(() =>{
-                menu.style.opacity = '1'
-
-                menu.style.right = '0'
-            }, 10)
-        })
-
-        closeMenu.addEventListener('click', () => {
-            menu.style.opacity = '0'
-
-            menu.style.right = (menu.offsetWidth * -1) + 'px'
-            
-            setTimeout(() => {
-                menu.removeAttribute('style')
-                openMenu.removeAttribute('style')
-            }, 200)
-        })
-    </script>
+    
     
 </body>
 </html>
