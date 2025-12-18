@@ -118,3 +118,8 @@ a {
         display: none;
     }
 }
+
+.banner {
+    width: 50px;
+    height: 35px;
+}
